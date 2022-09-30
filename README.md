@@ -81,7 +81,7 @@ This repository also welcome folks from non-tech background. You can contribute 
 ## 🔑 License & Conduct
 
 - MIT © [Meer Hamza](https://github.com/meerhamzadev)
-- [Code of Conduct](https://github.com/meerhamzadev/Hacktoberfest/blob/main/code-of-conduct.md)
+- [Code of Conduct](https://github.com/meerhamzadev/Hacktoberfest/blob/main/CODE-OF-CONDUCT.md)
 
 ## 👨🏻‍💻 AUTHOR
 
