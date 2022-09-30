@@ -32,7 +32,8 @@ Each module contains a template of an application or a landing page.
 ```md
 Module: Put your module name here like React
 
-Page/Section: Put the name of the page/section here on which you want to work like About section, login page etc
+Page/Section: Put the name of the page/section here on which you want
+ to work like About section, login page etc
 ```
 
 >⚠ Warning: A person can only contribute to a single module, as well as one section or page.
@@ -52,7 +53,7 @@ git checkout -b module/section-name
 # copy and paste the following in the terminal
 git add .
 
-# copy and paste the following in the terminal after you have executed the previous command. You can write your own readable message.
+# copy and paste the following in the terminal after you have executed the previous command.
 git commit -m "Complete section-name of module-name"
 
 # copy and paste the following in the terminal after you have executed the previous command
