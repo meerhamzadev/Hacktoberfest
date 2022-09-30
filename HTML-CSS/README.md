@@ -3,3 +3,4 @@ This module consist of creating a landing page using HTML and CSS. You are suppo
 
 ## Template ⚡
 
+![template](./template.png)
