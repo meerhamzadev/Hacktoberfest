@@ -25,9 +25,10 @@ git clone url_of_your_forked_copy
 - [REACT](https://github.com/meerhamzadev/Hacktoberfest/tree/main/React-module)
 - [Flutter](https://github.com/meerhamzadev/Hacktoberfest/tree/main/Flutter-module)
 
-Each module contains a template of an application or a landing page.
+5. Open a particular module in which you are comfortable, for me its react. Each module contains an **application template**. Check out the template. Decide your page/section in that module which you want to contribute.
+6. Open an `issue` through [issues tab](https://github.com/meerhamzadev/Hacktoberfest/issues) before start working.
 
-5. Decide your module, on which you want to contribute. Open an `issue` through issues tab before start working. Just make sure someone have not open/request that particular issue before you. In that case you will not be eligible to work on it. The open issue should look something like this:
+7. Just make sure someone have not open/request that particular issue before you. In that case you will not be eligible to work on it. The open issue should look something like this:
 
 ```md
 Module: Put your module name here like React
@@ -38,16 +39,16 @@ Page/Section: Put the name of the page/section here on which you want
 
 >⚠ Warning: A person can only contribute to a single module, as well as one section or page.
 
-6. Now navigate to the cloned repository and Open it in your preferred code editor. Also, open a terminal in this directory.
+8. Now navigate to the cloned repository and Open it in your preferred code editor. Also, open a terminal in this directory.
 
-7. Now type in the following command in the terminal and replace `module/section-name` with your decided module and section name.
+9. Now type in the following command in the terminal and replace `module/section-name` with your decided module and section name.
 
 ```sh
 git checkout -b module/section-name
 ```
-8. Now start writing your code 💥.
+10. Now start writing your code 💥.
 
-9. Once you have done all this, commit your changes to GitHub. You can do this with the following commands. Make sure you execute them one by one in order.
+11. Once you have done all this, commit your changes to GitHub. You can do this with the following commands. Make sure you execute them one by one in order.
 
 ```sh
 # copy and paste the following in the terminal
@@ -60,10 +61,10 @@ git commit -m "Complete section-name of module-name"
 git push -u origin module/section-name
 ```
 
-10. Now open the forked repository on your GitHub. You will see a box at the top telling you that some changes are pushed. You will also see a button called `Compare & pull request`. Click on it.
+12. Now open the forked repository on your GitHub. You will see a box at the top telling you that some changes are pushed. You will also see a button called `Compare & pull request`. Click on it.
 
-11. Now add a title, some description and yayyyy! You have opened a pull request in this repository.
-12. Also star this repository and follow me if you haven't yet. 😁
+13. Now add a title, some description and yayyyy! You have opened a pull request in this repository.
+14. Also star this repository and follow me if you haven't yet. 😁
 
 *You need to open **four** valid pull requests in order to complete the challenge. After contributing to this repo you need three more PRs.*
 
