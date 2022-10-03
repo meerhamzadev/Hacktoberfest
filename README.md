@@ -21,9 +21,9 @@ git clone url_of_your_forked_copy
 ```
 
 4. This repository consist of 3 modules.
-- HTML/CSS
-- REACT
-- Flutter
+- [HTML/CSS](https://github.com/meerhamzadev/Hacktoberfest/tree/main/HTML-CSS)
+- [REACT](https://github.com/meerhamzadev/Hacktoberfest/tree/main/React-module)
+- [Flutter](https://github.com/meerhamzadev/Hacktoberfest/tree/main/Flutter-module)
 
 Each module contains a template of an application or a landing page.
 
