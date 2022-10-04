@@ -260,6 +260,7 @@
   width: 600px;
   height: 45px;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: 1px solid transparent;
 }
 .name input::placeholder,.email input::placeholder, .company input::placeholder, .budget input::placeholder{
