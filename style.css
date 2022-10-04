@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+
+    display: flex;
+    background: url("new.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    position: fixed;
+    margin-right: 200;
+    
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 70;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    background: #e7f312;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    text-align: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+
+ .content h1{
+    font-size: 50px;
+    margin-top: 80px;
+ }
+
+    .content p{
+        font-weight: 100;
+        margin: 20px auto;
+        line-height: 25px;
+    }
+    button{
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #a1be22;
+        cursor: pointer;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+    }
+    span{
+        background: #d5f00d;
+        height: 100%;
+        width: 100%;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+
+    }
+    button:hover span{
+        width: 100%;
+    }
+    button:hover {
+        border: none;
+
+    }
+    
+}
