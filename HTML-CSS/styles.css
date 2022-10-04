@@ -1,3 +1,120 @@
 .heading {
   color: #212332;
 }
+
+.contact{
+  background: black;
+    color: white;
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.demo{
+  color: #DC7633;
+  margin-left: 6px;
+}
+
+.desc{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    opacity: 1;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.name label,.email label,.company label ,.budget label{
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #DC7633;
+}
+.name,.email,.company,.budget {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cc{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.usrname{
+  margin-left: 6px;
+}
+.name input{
+
+  width: 600px;
+  height: 45px;
+  border-radius: 20px;
+ border: none;
+}
+.email input{
+
+  width: 600px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+
+  
+}
+.button{
+
+  gap: 1rem;
+}
+.btnn{
+  width: 600px;
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  background: #DC7633;
+  font-weight: 700;
+  font-size: 16px;
+
+  border-radius: 50px;
+}
+
+.company input{
+  width: 600px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+.budget input{
+  width: 600px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+.name input::placeholder,.email input::placeholder, .company input::placeholder, .budget input::placeholder{
+
+  padding-left: 10px;
+  word-spacing: 1px;
+  color: rgba(0.1,0.1,0.1,0.61);
+  font-weight: 500;
+}
