@@ -68,6 +68,19 @@ git push -u origin module/section-name
 
 *You need to open **four** valid pull requests in order to complete the challenge. After contributing to this repo you need three more PRs.*
 
+## ⚡ How to make  a Pull Request
+1. Go to the pull request tab.
+2. Click on new pull request. 💥
+3. Describe the pull request.
+4. Click on create pull request.
+5. Add any comments and title you want to add with it.
+
+## ⚡ How to create an Issue
+1. Go to the issues tab.
+2. Click on new issue. 💥
+3. Describe the issue.
+4. Click on submit new issue
+
 ## 📦 *Resources*
 
 - If you are contributing for the first time, check this [repository](https://github.com/firstcontributions/first-contributions).
