@@ -123,7 +123,7 @@
 /* ANALYTICS STYLING */
 
 * {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 .analyticsContainer {
   display: flex;
@@ -215,4 +215,21 @@
   .user {
     margin-bottom: 50px;
   }
+}
+
+
+.customers{
+  padding: 150px;
+  margin: auto;
+  text-align: center;
+  color: #0e1130;
+  background-color: rgb(201, 224, 224);
+}
+
+.below{
+  font-size: small;
+}
+
+.aall{
+  display: flex;
 }
