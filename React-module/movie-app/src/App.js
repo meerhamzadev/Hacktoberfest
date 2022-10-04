@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
+import Signup from "./pages/Signup";
 
 function App() {
-  return (
-    <h1 class="heading">Select your section and start hacking 👩‍💻👨‍💻</h1>
-  );
+  return <Signup />;
 }
 
 export default App;
