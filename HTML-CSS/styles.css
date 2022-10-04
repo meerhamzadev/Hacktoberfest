@@ -46,7 +46,7 @@
   background-image: url(../assets/home-page.png);
 }
 
-.left {
+.left1 {
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
@@ -54,7 +54,7 @@
   margin-top: -50px;
 }
 
-.home-page .left h1 {
+.home-page .left1 h1 {
   font-size: 80px;
   font-weight: bolder;
   font-family: 'Poppins', sans-serif;
@@ -62,7 +62,7 @@
   color: #112D4E;
 }
 
-.home-page .left p {
+.home-page .left1 p {
   margin-left: 5px;
   color: grey;
   font-size: 18px;
@@ -70,16 +70,16 @@
   color: #112D4E;
 }
 
-.home-page .left .small-p {
+.home-page .left1 .small-p {
   font-size: 15px;
   color: grey;
 }
 
-.home-page .left .custom-btn {
+.home-page .left1 .custom-btn {
   margin-top: 10px;
 }
 
-.home-page .left .custom-btn .create-btn {
+.home-page .left1 .custom-btn .create-btn {
   margin-bottom: 20px;
   border-radius: 20px;
   padding: 20px;
@@ -90,13 +90,13 @@
   border: none;
 }
 
-.home-page .left .custom-btn .create-btn i {
+.home-page .left1 .custom-btn .create-btn i {
   margin-left: 20px;
   margin-right: 5px;
   transition: all 0.3s ease;
 }
 
-.home-page .left .custom-btn .create-btn:hover i {
+.home-page .left1 .custom-btn .create-btn:hover i {
   transform: translate(10px);
 }
 
@@ -221,4 +221,102 @@
   word-spacing: 1px;
   color: rgba(0.1,0.1,0.1,0.61);
   font-weight: 500;
+}
+
+
+/* ANALYTICS STYLING */
+
+* {
+  font-family: sans-serif;
+}
+.analyticsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left h1 {
+  font-size: 50px;
+}
+.left p {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.inner {
+  width: 60%;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+
+  justify-content: space-around;
+  flex-direction: row;
+}
+.rightInner {
+  width: 70%;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+}
+.user {
+  height: 150px;
+  border-radius: 10px;
+  width: 200px;
+  padding: 30px;
+  color: white;
+  background-color: dodgerblue;
+}
+.user h1 {
+  font-size: 40px;
+}
+.rating {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  background-color: #36454f;
+}
+.checked {
+  color: orange;
+}
+.rating h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1600px) {
+  .analyticsContainer {
+    padding: 0px;
+  }
+  .right {
+    width: 100%;
+  }
+  .rightInner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .inner {
+    width: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .rightInner {
+    flex-wrap: wrap;
+  }
+  .user {
+    margin-bottom: 50px;
+  }
 }
