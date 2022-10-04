@@ -105,6 +105,53 @@
   padding-top: 30px;
   padding-bottom: 20px;
 }
+/* Views */
+
+.image{
+  float: right;
+  margin-right: 100px;
+  height: 600px;
+}
+.text{
+  margin-left: 170px;
+}
+.heading2{
+  font-size: 50px;
+  color: #21295f;
+}
+.number{
+  font-size: large;
+  background-color: #8f9ceb;
+  width: 50px;
+  height: 60px;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px rgb(71, 71, 96);
+  display: inline-block;
+}
+.number1{
+  font-size: large;
+  background-color: #efa64c;
+  width: 50px;
+  height: 60px;
+  border: transparent;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px rgb(187, 103, 35);
+  display: inline-block;
+}
+.number2{
+  margin-left: 10px;
+  display: inline-block;
+  
+}
+.numbers{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+.text1{
+  margin-left: 20px;
+}
 
 .contact{
   background: black;
