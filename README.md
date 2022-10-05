@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/60890818/193982568-435b5e96-a937-439e-9693-c7cbbd77c186.png)
+# This repo has been excluded from hacktoberfest 2022
+
 ![banner image](./assets/banner.jpg)
 <p align="center">
 <strong>
