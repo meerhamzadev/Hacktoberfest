@@ -236,6 +236,11 @@
 }
 .button{
   margin-bottom: 25px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
   gap: 1rem;
 }
 .btnn{
@@ -258,8 +263,11 @@
 }
 .budget input{
   width: 600px;
+  margin: auto;
+  text-align: center;
   height: 45px;
   border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: 1px solid transparent;
 }
 .name input::placeholder,.email input::placeholder, .company input::placeholder, .budget input::placeholder{
